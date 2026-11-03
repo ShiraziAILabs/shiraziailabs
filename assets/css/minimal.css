@@ -21,3 +21,28 @@ footer{padding:28px 0 41px;font-size:12px;color:#63778b}.footer-content{display:
 .hero-right::after{content:"";position:absolute;bottom:0;left:0;right:0;height:70px;background:linear-gradient(transparent,#101d2a55);pointer-events:none}
 .hero-side-label{z-index:1}
 @media(max-width:780px){.hero-right{height:300px;min-height:300px}.hero-portrait{object-position:center 37%}}
+
+/* Papers bibliography & SaaS solutions page — retains established palette */
+.paper-totals{display:flex;flex-wrap:wrap;gap:28px;border-top:1px solid var(--light);border-bottom:1px solid var(--light);padding:20px 0;margin-bottom:25px;font-size:13px;color:var(--soft)}
+.paper-totals strong{font-size:25px;color:var(--ink);font-family:Georgia,serif;font-weight:400;margin-right:5px}
+.paper-section{padding-top:51px}.paper-section .section-head{margin-bottom:8px}.paper-section .section-head h2{font-size:clamp(28px,3.4vw,43px)}
+.paper-section-lead{font-size:14px;line-height:1.7;color:var(--soft);margin:0 0 21px;max-width:880px}
+.paper-section .row-item{grid-template-columns:165px 1fr 23px}
+.paper-section .row-item small{font-size:10px;line-height:1.65}
+.paper-section .row-item h3{font-size:17px;line-height:1.4;font-weight:600}
+.paper-section .row-item p{font-size:12px;line-height:1.7}
+.paper-unlinked{cursor:default}
+.paper-unlinked .arrow{opacity:.35}
+.sales-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:25px}
+.sales-metrics>div{border:1px solid var(--light);background:var(--panel);padding:23px 18px;display:flex;flex-direction:column;gap:8px;min-height:160px}
+.sales-metrics small{font-size:10px;letter-spacing:.09em;text-transform:uppercase;font-weight:750;color:var(--soft)}
+.sales-metrics strong{font:400 clamp(23px,2.7vw,37px)/1.1 Georgia,serif;color:var(--ink);letter-spacing:-.035em}
+.sales-metrics span{font-size:12px;line-height:1.5;color:var(--soft)}
+.sales-section{padding:44px 0 28px;border-bottom:1px solid var(--line)}
+.sales-section .section-head h2{font-size:clamp(28px,3.2vw,44px)}
+.sales-section .columns{gap:38px}
+.sales-section .tile{min-height:180px}
+.sales-section .row-item{grid-template-columns:150px 1fr 20px}
+@media(max-width:900px){.sales-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:780px){.paper-section .row-item,.sales-section .row-item{grid-template-columns:1fr 20px}.paper-section .row-item small,.sales-section .row-item small{grid-column:1/-1}.paper-totals{gap:18px}.sales-section{padding:34px 0 18px}}
+@media(max-width:410px){.sales-metrics{grid-template-columns:1fr 1fr;gap:8px}.sales-metrics>div{padding:16px 12px;min-height:130px}.sales-metrics strong{font-size:26px}.paper-totals{flex-direction:column;gap:8px}}
