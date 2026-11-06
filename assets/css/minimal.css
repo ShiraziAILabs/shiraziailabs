@@ -321,3 +321,15 @@ footer .footer-content{border-top:1px solid #DDDCD0;padding-top:27px}
 .es-study-aside{background:#EEF1E8;border-color:#D2DCCE}
 @media(max-width:900px){.garden-entry-grid{grid-template-columns:1fr 1fr}.garden-entry:last-child{grid-column:1/-1}.garden-entry{min-height:300px}}
 @media(max-width:650px){.garden-subpage .garden-subpage-intro{padding:37px 0}.garden-subpage-intro h1{font-size:53px}.garden-entry-grid{grid-template-columns:1fr}.garden-entry:last-child{grid-column:auto}.garden-entry{min-height:300px}.garden-collection-bar span:last-child{display:none}.garden-simple-bottom{flex-direction:column;align-items:start;padding-bottom:50px}}
+
+/* Readability & keyboard-friendly editorial refinements */
+.garden-eyebrow,.garden-eyebrow-mini,.garden-card-top,.garden-list-heading,.garden-section-kicker{font-size:11px;color:#4D6859}
+.garden-hero .garden-eyebrow>span:last-child{color:#556F60}
+.garden-captionline,.garden-location-note{font-size:11px;color:#526C60}
+.garden-shelf small,.garden-entry-top,.garden-collection-bar,.garden-collection-bar span:last-child{color:#506A5D;font-size:11px}
+.garden-logo small{font-size:10px;color:#516D5E}
+.garden-essay-list a small{font-size:11px;color:#506D5E}
+.garden-card-top{font-weight:770}
+.garden-site-header nav>a,.garden-site-header nav details>summary{font-size:12px}
+@media(max-width:1110px){.garden-site-header nav>a,.garden-site-header nav details>summary{font-size:11px}}
+@media(max-width:780px){.garden-site-header nav>a,.garden-site-header nav details>summary{font-size:14px}}
