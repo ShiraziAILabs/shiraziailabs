@@ -160,3 +160,112 @@ footer{padding:28px 0 41px;font-size:12px;color:#63778b}.footer-content{display:
 .es-study-aside p{font-size:13px;line-height:1.75;color:var(--soft)}
 .es-study-aside a{font-size:12px;font-weight:760;border-bottom:1px solid currentColor}
 @media(max-width:780px){.es-featured-grid,.es-study-content{grid-template-columns:1fr}.es-study{padding:30px 0 50px}.es-study-header h1{font-size:43px}.es-study-header p{font-size:15px}}
+
+/* SHIRAZI AI LABS — original warm editorial garden design, 2026 */
+:root{--bg:#F8F6EF;--panel:#FFFDFA;--ink:#273848;--soft:#50636C;--line:#BABFB7;--light:#DEDCD1;--max:1170px;--sage:#557F71;--pale:#E6EFE6;--peach:#EED8C8}
+body{background:var(--bg);color:var(--ink);font-size:16px;line-height:1.72}
+a:hover{color:#356C63}a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:#356C63}
+header{padding:27px 0 24px}header .header-content{border-bottom:1px solid #DCD8CD;padding-bottom:25px}
+.logo{font-family:Georgia,serif;font-size:19px;font-weight:600;letter-spacing:-.04em}.logo b{color:#6B9E8B}.logo small{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:10px;font-weight:550;color:#688076}
+nav>a,nav details>summary{color:#41535A;font-size:10.5px;font-weight:680}
+nav a[aria-current="page"]{text-decoration-color:#6D9C85;text-decoration-thickness:2px}
+nav .dropdown{border-color:#DCD8CB;box-shadow:0 12px 24px #404e3922;background:#FFFCF6}
+nav .dropdown a:hover{background:#EBF1E7}
+.menu-toggle{color:var(--ink)}
+footer{background:#F1F0E8;color:#5D6B66;padding:31px 0 41px}
+footer .footer-content{border-top:1px solid #DDDCD0;padding-top:27px}
+.section,.page-heading{border-color:#D3D5CC}
+.page-heading{padding-top:57px}
+.page-heading h1,.section h2,.prose h2{font-family:Georgia,"Iowan Old Style",serif;font-weight:400}
+.kicker,.tile small,.row-item small{color:#53766A}
+.prose{color:#4D6064}
+.tile{background:#FFFCF6;border-color:#DEDCD0}
+.tile:hover{background:#FBFAF4}
+.note{background:#EDF0E6;border-left-color:#739283;color:#50655B}
+.underlink{color:#315F57}
+.row-item{border-color:#DDDCD0}
+.row-item h3{font-weight:560}
+.garden-home{overflow:hidden}
+.garden-home .garden-eyebrow,.garden-eyebrow-mini,.garden-card-top,.garden-card-top>span,.garden-list-heading{letter-spacing:.13em;font-size:10px;font-weight:760;color:#547466}
+.garden-hero{padding:45px 0 40px}
+.garden-eyebrow{display:flex;align-items:center;gap:12px;border-bottom:1px solid #DBD9CE;padding-bottom:17px}
+.garden-eyebrow>span:last-child{margin-left:auto;color:#8B8E80}
+.garden-star{font-size:23px;color:#6C9380;line-height:1}
+.garden-hero-layout{display:grid;grid-template-columns:1.23fr .77fr;gap:65px;padding:56px 25px 22px 4px;align-items:center}
+.garden-introline{font-size:19px;font-family:Georgia,serif;font-style:italic;color:#779288;margin:0}
+.garden-hero-copy h1{font:400 clamp(78px,8.5vw,132px)/.88 Georgia,"Iowan Old Style",serif;letter-spacing:-.075em;margin:19px 0 38px}
+.garden-hero-copy h1 i{font-weight:400;color:#4B7569}
+.garden-bigline{font:400 clamp(23px,2.6vw,36px)/1.34 Georgia,serif;letter-spacing:-.025em;margin:0 0 24px;max-width:680px;color:#2C3D49}
+.garden-description{font-size:15px;line-height:1.9;color:var(--soft);max-width:550px;margin:0}
+.garden-actions{display:flex;gap:23px;flex-wrap:wrap;align-items:center;margin-top:31px}
+.garden-button{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;color:#FFF;background:#305A52;padding:13px 20px;font-size:12px;font-weight:700;min-height:46px;border:1px solid #305A52}
+.garden-button:hover{color:#FFF;background:#497B6C}
+.garden-textlink,.garden-intro-band a,.garden-split-bottom a,.garden-contact-links>a:not(.garden-button){font-size:12px;font-weight:750;color:#315E55;border-bottom:1px solid #8D9F90;padding:5px 0}
+.garden-captionline{font-size:9px;letter-spacing:.08em;font-weight:700;color:#7B8A7E;margin:43px 0 0}
+.garden-captionline span{font-size:17px;color:#789881;vertical-align:middle;margin-right:5px}
+.garden-photo{margin:0;position:relative;max-width:420px;min-height:520px}
+.garden-photo-underlay{position:absolute;inset:15px -16px -15px 16px;background:#DDE8DC;transform:rotate(3deg);border-radius:53% 47% 48% 52%/9% 9% 8% 8%}
+.garden-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 31%;border-radius:49% 49% 8px 8px/11% 11% 8px 8px;filter:saturate(.88)}
+.garden-photo figcaption{position:absolute;bottom:0;left:0;right:0;padding:23px 16px 14px;background:linear-gradient(transparent,#23312fbd);color:#fff;font-size:10px;font-weight:730;letter-spacing:.06em;display:flex;justify-content:space-between;gap:10px}
+.garden-flower{position:absolute;right:-26px;top:-32px;color:#9CAB8D;font-size:66px;transform:rotate(-17deg)}
+.garden-intro-band{display:grid;grid-template-columns:45px 1fr auto;gap:23px;align-items:center;border-top:1px solid #D5D5CA;border-bottom:1px solid #D5D5CA;padding:30px 6px;margin-top:22px}
+.garden-intro-band>span{color:#95A989;font-size:36px}
+.garden-intro-band p{font:400 clamp(19px,2.4vw,26px)/1.48 Georgia,serif;letter-spacing:-.015em;max-width:730px;margin:0}
+.garden-intro-band em{color:#558274;font-style:normal}
+.garden-section{padding:88px 0 80px;border-bottom:1px solid #D3D5CB}
+.garden-heading{display:grid;grid-template-columns:1.3fr .7fr;gap:55px;align-items:end;margin-bottom:36px}
+.garden-heading h2,.garden-contact-block h2{font:400 clamp(39px,4.9vw,65px)/1.14 Georgia,serif;letter-spacing:-.055em;margin:16px 0 0}
+.garden-heading>p{font-size:14px;line-height:1.85;color:var(--soft);margin:0 0 8px}
+.garden-dual{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.garden-dual-card{padding:26px 32px 32px;min-height:390px;position:relative;display:flex;flex-direction:column;align-items:start;border:1px solid #DBDDCF;overflow:hidden}
+.garden-career{background:#EAF0E7}
+.garden-curiosity{background:#F2EDE5}
+.garden-card-top{display:flex;justify-content:space-between;align-items:center;width:100%}
+.garden-card-top>span:last-child{font-size:18px}
+.garden-card-sketch{height:125px;margin-top:15px;position:relative;width:100%}
+.garden-abstract svg{width:100%}
+.garden-card-sketch svg{width:min(270px,90%);height:110px;position:absolute;right:8px;top:2px}
+.garden-glyph-a{position:absolute;right:75px;top:0;font-size:92px;line-height:1;color:#94B6A4;font-family:Georgia,serif}
+.garden-glyph-b{position:absolute;right:8px;top:24px;font-size:48px;color:#E0B999}
+.garden-glyph-c{position:absolute;right:133px;top:62px;font-size:46px;color:#6F9685}
+.garden-dual-card h3{font:400 clamp(25px,3vw,37px)/1.2 Georgia,serif;letter-spacing:-.035em;margin:14px 0 11px}
+.garden-dual-card p{font-size:13px;line-height:1.75;max-width:440px;color:#52645D;margin:0 0 18px}
+.garden-dual-card strong{font-size:12px;margin-top:auto;padding-top:17px;color:#355D54}
+.garden-dual-card:hover{border-color:#8BA598;color:#273848}
+.garden-metrics{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #CDD3C8;border-bottom:1px solid #CDD3C8}
+.garden-metrics>div{padding:27px 23px;border-right:1px solid #CDD3C8;display:flex;flex-direction:column;gap:11px}
+.garden-metrics>div:first-child{padding-left:0}
+.garden-metrics>div:last-child{border-right:0}
+.garden-metrics strong{font:400 clamp(27px,3.3vw,44px)/1.2 Georgia,serif;letter-spacing:-.03em;color:#355F56}
+.garden-metrics span{font-size:12px;color:var(--soft)}
+.garden-split-bottom{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center;margin-top:23px}
+.garden-split-bottom p{font-size:14px;color:var(--soft);line-height:1.8;margin:0}
+.garden-split-bottom>div{display:flex;justify-content:end;flex-wrap:wrap;gap:20px}
+.garden-reading-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:22px}
+.garden-essay{padding:24px 25px 30px;background:#F9F4EA;border:1px solid #DCD6CA;display:flex;align-items:start;flex-direction:column}
+.garden-essay-art{height:177px;width:100%;margin:13px 0 10px;background:#F1EADD;border-radius:90px 80px 22px 20px/65px 65px 20px 20px;display:flex;align-items:center;justify-content:center}
+.garden-essay-art svg{height:160px;width:100%;max-width:440px}
+.garden-essay h3{font:400 clamp(24px,2.65vw,34px)/1.2 Georgia,serif;letter-spacing:-.035em;margin:10px 0}
+.garden-essay p{font-size:13px;line-height:1.75;color:var(--soft);margin:0 0 20px}
+.garden-essay>strong{font-size:12px;color:#316055;margin-top:auto}
+.garden-essay-list{border-top:1px solid #CDCFC5}
+.garden-list-heading{padding:15px 0}
+.garden-essay-list>a:not(.garden-all-link){display:grid;grid-template-columns:1fr 20px;gap:5px;padding:20px 0;border-bottom:1px solid #D8D9CD}
+.garden-essay-list a small{font-size:9px;letter-spacing:.1em;color:#688478;font-weight:760;grid-column:1/-1}
+.garden-essay-list a strong{font:400 22px/1.28 Georgia,serif;letter-spacing:-.025em}
+.garden-essay-list a span{font-size:17px}
+.garden-all-link{font-size:12px;font-weight:740;color:#316055;display:inline-block;margin-top:19px}
+.garden-shelf{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.garden-shelf>a{border:1px solid #D8DACF;padding:22px 22px 27px;display:flex;align-items:start;flex-direction:column;background:#FEFCF7;min-height:260px}
+.garden-shelf>a>span{font:400 49px Georgia,serif;color:#739B89;line-height:1}
+.garden-shelf small{font-size:10px;letter-spacing:.12em;color:#6D8170;font-weight:760;margin-top:11px}
+.garden-shelf h3{font:400 25px/1.3 Georgia,serif;margin:15px 0 9px}
+.garden-shelf p{font-size:13px;line-height:1.72;color:var(--soft);margin:0 0 20px}
+.garden-shelf strong{font-size:12px;color:#306155;margin-top:auto}
+.garden-contact-block{display:grid;grid-template-columns:1fr auto;align-items:center;gap:35px;background:#E4EBDE;border:1px solid #D2DDCF;padding:38px 43px;margin:68px 0 88px}
+.garden-contact-block h2{font-size:clamp(33px,4.2vw,52px)}
+.garden-contact-block p{font-size:14px;line-height:1.8;color:var(--soft);max-width:560px}
+.garden-contact-links{display:flex;flex-direction:column;align-items:start;gap:14px}
+@media(max-width:980px){.garden-hero-layout{gap:35px;padding-right:10px}.garden-photo{min-height:440px}.garden-heading{gap:25px}}
+@media(max-width:780px){.garden-hero{padding:25px 0}.garden-hero-layout{grid-template-columns:1fr;padding:34px 0 0;gap:34px}.garden-hero-copy h1{font-size:clamp(77px,13vw,113px);margin-bottom:28px}.garden-photo{min-height:360px;max-width:none;width:min(90%,450px);margin:0 auto 18px}.garden-eyebrow>span:last-child{display:none}.garden-intro-band{grid-template-columns:28px 1fr;gap:15px}.garden-intro-band a{grid-column:2}.garden-heading{grid-template-columns:1fr;gap:14px;margin-bottom:22px}.garden-section{padding:57px 0}.garden-dual,.garden-reading-grid{grid-template-columns:1fr}.garden-dual-card{min-height:340px}.garden-metrics{grid-template-columns:1fr 1fr}.garden-metrics>div{padding:20px 10px}.garden-metrics>div:nth-child(2){border-right:0}.garden-metrics>div:last-child{grid-column:1/-1;border-top:1px solid #CDD3C8;padding-left:0}.garden-split-bottom{grid-template-columns:1fr;gap:18px}.garden-split-bottom>div{justify-content:start}.garden-shelf{grid-template-columns:1fr}.garden-shelf>a{min-height:210px}.garden-contact-block{grid-template-columns:1fr;padding:25px;margin:40px 0 56px}nav .dropdown{background:#F2F0E8}}
+@media(max-width:410px){.garden-hero-copy h1{font-size:75px}.garden-captionline{font-size:8px}.garden-bigline{font-size:25px}.garden-dual-card{padding:22px}.garden-photo{min-height:320px}}
