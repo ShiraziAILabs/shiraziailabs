@@ -269,3 +269,18 @@ footer .footer-content{border-top:1px solid #DDDCD0;padding-top:27px}
 @media(max-width:980px){.garden-hero-layout{gap:35px;padding-right:10px}.garden-photo{min-height:440px}.garden-heading{gap:25px}}
 @media(max-width:780px){.garden-hero{padding:25px 0}.garden-hero-layout{grid-template-columns:1fr;padding:34px 0 0;gap:34px}.garden-hero-copy h1{font-size:clamp(77px,13vw,113px);margin-bottom:28px}.garden-photo{min-height:360px;max-width:none;width:min(90%,450px);margin:0 auto 18px}.garden-eyebrow>span:last-child{display:none}.garden-intro-band{grid-template-columns:28px 1fr;gap:15px}.garden-intro-band a{grid-column:2}.garden-heading{grid-template-columns:1fr;gap:14px;margin-bottom:22px}.garden-section{padding:57px 0}.garden-dual,.garden-reading-grid{grid-template-columns:1fr}.garden-dual-card{min-height:340px}.garden-metrics{grid-template-columns:1fr 1fr}.garden-metrics>div{padding:20px 10px}.garden-metrics>div:nth-child(2){border-right:0}.garden-metrics>div:last-child{grid-column:1/-1;border-top:1px solid #CDD3C8;padding-left:0}.garden-split-bottom{grid-template-columns:1fr;gap:18px}.garden-split-bottom>div{justify-content:start}.garden-shelf{grid-template-columns:1fr}.garden-shelf>a{min-height:210px}.garden-contact-block{grid-template-columns:1fr;padding:25px;margin:40px 0 56px}nav .dropdown{background:#F2F0E8}}
 @media(max-width:410px){.garden-hero-copy h1{font-size:75px}.garden-captionline{font-size:8px}.garden-bigline{font-size:25px}.garden-dual-card{padding:22px}.garden-photo{min-height:320px}}
+
+/* Compact, original editorial navigation */
+.garden-site-header .header-content{display:flex;align-items:center;justify-content:space-between;padding-bottom:22px}
+.garden-logo{display:flex;align-items:center;gap:10px;font:400 21px/1.08 Georgia,serif;letter-spacing:-.038em}
+.garden-logo small{display:block;margin:4px 0 0;font:650 9px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#678174}
+.garden-logo-flower{font:400 31px Georgia,serif;color:#86A58E;line-height:1;transform:rotate(-14deg)}
+.garden-site-header nav{gap:25px}
+.garden-site-header nav>a,.garden-site-header nav details>summary{font-size:11px;letter-spacing:.025em;text-transform:none;font-weight:660;color:#425B54}
+.garden-site-header nav .dropdown a{font-size:13px}
+.garden-site-header nav a:hover{color:#2C806A}
+.garden-footer-emblem{font-size:22px;color:#7A9A87;margin-right:6px}
+.garden-footer-annotation{display:block;font-size:11px;color:#718275;margin-top:3px}
+.garden-site-footer .footer-content>div:last-child{flex-wrap:wrap}
+@media(max-width:1110px){.garden-site-header nav{gap:15px}.garden-site-header nav>a,.garden-site-header nav details>summary{font-size:10px}}
+@media(max-width:780px){.garden-site-header nav{top:45px;gap:0;background:#FFFCF6}.garden-site-header nav>a,.garden-site-header nav details>summary{font-size:14px;padding:11px 9px}.garden-logo{font-size:19px}.garden-site-header .header-content{padding-bottom:17px}.garden-site-header nav .dropdown{background:#F0F0E8}}
