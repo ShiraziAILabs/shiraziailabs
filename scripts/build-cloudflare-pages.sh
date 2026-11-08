@@ -41,8 +41,7 @@ for file in \
   assets/js/minimal.js \
   assets/img/favicon.svg \
   assets/img/qasim-shirazi.webp \
-  assets/img/og-cover.svg \
-  assets/docs/Qasim_Shirazi_Enterprise_Sales_Solutions_Resume.pdf
+  assets/img/og-cover.svg
 do
   copy_public "$file"
 done
